@@ -18,6 +18,9 @@ import ActiveBusiness from './Component/Admin/ActiveBusiness/ActiveBusiness.jsx'
 import AdminInbox from './Component/Admin/AdminInbox/AdminInbox.jsx';
 import AllJobPost from './Component/AllJobPost/AllJobPost.jsx';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs.jsx';
+import SendOffer from './Component/SendOffer/SendOffer.jsx';
+import Availability from './Component/Availability/Availability.jsx';
+import Compeleted from './Component/Compeleted/Compeleted.jsx';
 const router = createBrowserRouter([
   {
     path: "/security",
@@ -66,6 +69,18 @@ const router = createBrowserRouter([
   {
     path: "/applied-jobs",
     element: <AppliedJobs></AppliedJobs>
+  },
+  {
+    path: "/offer",
+    element: <SendOffer></SendOffer>
+  },
+  {
+    path: "/availability",
+    element: <Availability></Availability>
+  },
+  {
+    path: "/compeleted",
+    element: <Compeleted></Compeleted>
   }
 ]);
 
